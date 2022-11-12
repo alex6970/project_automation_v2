@@ -9,7 +9,7 @@ LABELS
 -->
 
 
-# [Project Automation]
+# Project Automation V2
 
 
 ## About the project
