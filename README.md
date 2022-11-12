@@ -1,20 +1,21 @@
 <!---
 LABELS
 
-[![alex6970 - PasswordManager](https://img.shields.io/static/v1?label=alex6970&message=PasswordManager&color=blueviolet&logo=github)](https://github.com/alex6970/PasswordManager "Go to GitHub repo")
+[![alex6970 - ProjectAutomationV2](https://img.shields.io/static/v1?label=alex6970&message=project_automation_v2&color=blueviolet&logo=github)](https://github.com/alex6970/project_automation_v2 "Go to GitHub repo")
 [![License](https://img.shields.io/badge/License-MIT-blueviolet)](#license)
-[![GitHub commits](https://badgen.net/github/commits/alex6970/PasswordManager)]()  
-[![GitHub watchers](https://img.shields.io/github/watchers/alex6970/PasswordManager.svg?style=social&label=Watchers&maxAge=2592000)]()
+[![GitHub commits](https://badgen.net/github/commits/alex6970/project_automation_v2)]()  
+[![GitHub watchers](https://img.shields.io/github/watchers/alex6970/project_automation_v2.svg?style=social&label=Watchers&maxAge=2592000)]()
 
 -->
 
 
-# [Insert project name]
+# [Project Automation]
 
 
 ## About the project
 
-[insert description]
+Small project intended to create structured folder in order to start a programming project. The folder created can contain/includes template README file, License, virtual environment creation and git initialization. In the end, Git Bash and VScode are launched inside the folder.
+Made for Windows OS.
 
 <br>
 
@@ -35,18 +36,16 @@ LABELS
 ## Project Organization
 
 
-    ├── scripts
-    │   ├── some_script.py            <- App main script
+    ├── src
+    │   ├── create_project_v2.bat     <- Batch script containing instructions
     │   │
-    │   ├── another.py                <- Another script
+    │   ├── project_auto.py           <- Python script to initialize git
     │   │
-    │   └── another_one.py            <- Yet another
+    │   └── README.md                 <- Template README file
     │
     ├── LICENSE                       <- MIT License
     │
-    ├── Notes.md                      <- Notes along the project.
-    │
-    └── README.md                     <- The top-level README
+    └── README.md                     <- The top-level README explaining this project
 
 <br>
 
@@ -54,7 +53,7 @@ LABELS
 
 ## Features and uses 💻
 
-[Insert features and uses]
+To run this, you must clone the project and replace all paths with yours (inside the scripts). Once your paths are set, create an environement that points to this folder (so you can run the scripts from your CMD by writing `create_project_v2` inside the folder of your choice).
 
 <br>
 
@@ -62,7 +61,8 @@ LABELS
 
 ## Technologies & packages 🔧
 
-&rarr; [insert technologies & packages]
+&rarr; git  
+&rarr; subprocess
 <!---
 or `pip freeze > requirements.txt`
 -->
@@ -74,20 +74,9 @@ or `pip freeze > requirements.txt`
 
 ## Screenshots 📷
 
-- #### One screenshot
+None
 
-<div align="center">
-    <img src="PATH FROM PROJECT" alt="Logo" width="400" height="100%">
-</div>
-
-- #### Another screenshot
-
-<div align="center">
-    <img src="PATH FROM PROJECT" alt="Logo" width="400" height="100%">
-</div>
 <br>
-
-
 
 ## Credits 🤝
 
