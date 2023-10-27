@@ -14,7 +14,7 @@ LABELS
 
 ## About the project
 
-Small project intended to create structured folder in order to start a programming project. The folder created can contain/includes template README file, License, virtual environment creation and git initialization. In the end, Git Bash and VScode are launched inside the folder.
+Small project intended to create a structured folder in order to start a programming project. The folder created can contain/includes template README file, License, virtual environment creation and git initialization. In the end, Git Bash and VScode are launched inside the folder.
 Made for Windows OS.
 
 <br>
@@ -53,7 +53,7 @@ Made for Windows OS.
 
 ## Features and uses 💻
 
-To run this, you must clone the project and replace all paths with yours (inside the scripts). Once your paths are set, create an environement that points to this folder (so you can run the scripts from your CMD by writing `create_project_v2` inside the folder of your choice).
+To run this, you must clone the project and replace all paths with yours (inside the scripts). Once your paths are set, create an environment variable that points to this folder (...\project_automation_v2\src\), so you can run the scripts from your CMD by writing `create_project_v2`.
 
 <br>
 
